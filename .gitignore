@@ -1,0 +1,54 @@
+# General Ignored files #
+######################### 
+*.bkp
+*.tmp
+*.old
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+__pycache__
+
+# Archives #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# Temp editor files etc.
+########################
+*.swp
+*.bak
+*.un~
+
+# IDE project settings #
+########################
+.idea/
+*.idea
+
+# Ansible undesired files #
+###########################
+*.retry
+*.pass
+*.cache
+*.index
+.ansible/
+ansible.cfg
